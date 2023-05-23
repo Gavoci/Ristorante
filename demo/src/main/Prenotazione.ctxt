@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Prenotazione
+comment1.params=cliente\ dataInserimento\ dataPrenotazione\ coperti
+comment1.target=Prenotazione(Cliente,\ java.time.LocalDate,\ java.time.LocalDate,\ int)
+comment2.params=
+comment2.target=Cliente\ getCliente()
+comment3.params=
+comment3.target=java.time.LocalDate\ getDataInserimento()
+comment4.params=
+comment4.target=java.time.LocalDate\ getDataPrenotazione()
+comment5.params=dataPrenotazione
+comment5.target=void\ setDataPrenotazione(java.time.LocalDate)
+comment6.params=
+comment6.target=int\ getCoperti()
+comment7.params=coperti
+comment7.target=void\ setCoperti(int)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

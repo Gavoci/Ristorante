@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PrenotazioniRistorante
+comment1.params=nome\ cognome\ email\ telefono
+comment1.target=void\ aggiungiCliente(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=dataInizio\ dataFine
+comment10.target=int\ numeroCopertiInRange(java.time.LocalDate,\ java.time.LocalDate)
+comment11.params=
+comment11.target=java.util.List\ elencoClientiOrdinatiPerPrenotazioni()
+comment2.params=email\ nuovoNome\ nuovoCognome\ nuovoTelefono
+comment2.target=void\ modificaCliente(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=email
+comment3.target=void\ eliminaCliente(java.lang.String)
+comment4.params=emailCliente\ dataInserimento\ dataPrenotazione\ coperti
+comment4.target=void\ aggiungiPrenotazione(java.lang.String,\ java.time.LocalDate,\ java.time.LocalDate,\ int)
+comment5.params=emailCliente\ dataPrenotazione\ coperti
+comment5.target=void\ modificaPrenotazione(java.lang.String,\ java.time.LocalDate,\ int)
+comment6.params=emailCliente\ dataPrenotazione
+comment6.target=void\ eliminaPrenotazione(java.lang.String,\ java.time.LocalDate)
+comment7.params=emailCliente
+comment7.target=java.util.List\ ricercaPrenotazioniPerCliente(java.lang.String)
+comment8.params=dataPrenotazione
+comment8.target=java.util.List\ ricercaPrenotazioniPerData(java.time.LocalDate)
+comment9.params=dataPrenotazione
+comment9.target=int\ numeroCopertiPerData(java.time.LocalDate)
+numComments=12
